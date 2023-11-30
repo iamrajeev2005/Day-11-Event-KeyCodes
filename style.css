@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.key{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #131212;
+    padding: 20px 10px;
+    min-width: 200px;
+    margin: 10px;
+    font-size: 1.6rem;
+    position: relative;
+}
+.key h3{
+    font-weight:normal;
+    position: absolute;
+    top: -45px;
+}
+.key1{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #131212;
+    padding: 30px;
+    min-width: 200px;
+    margin: 10px;
+    font-size: 1.6rem;
+}
+@media (max-width: 670px) {
+    .key{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 200px;
+        margin: 50px;
+        font-weight: bold;
+    }
+    .key h3{
+        position: absolute;
+        top: -35px;
+    }
+}
